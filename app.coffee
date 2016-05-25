@@ -144,14 +144,20 @@ arrowL = new Layer
   #parent: content
 
 arrowR = new Layer
-  x: 1600
-  y: 1500
-  z: -1000
-  width: 100
-  height: 100
-  backgroundColor: "rgb(0, 0, 0)"
+  x: 740
+  y: 1240
+  z: 500
+  width: 90
+  height: 90
+  backgroundColor: "rgb(0, 255, 10)"
   borderRadius: 50
-  #parent: content
+  parent: content
+
+arrowR.html = ">"
+arrowR.style =
+  "font-size" : "60px"
+  "font-weight" : "Bold"
+  "text-align" : "center"
 
   #arrow end
 
